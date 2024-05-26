@@ -40,6 +40,7 @@
     <li>Username & Password : What you input in the RDS before creating the database</li>
   </ul>
   <li>Test Connection now and should be able to have a connection with RDS and MySQL Workbench</li>
+  <li>Test the IP Address using Postman or You can now insert data in that database</li>
 </ol>
 
 
