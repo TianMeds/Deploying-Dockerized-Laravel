@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/Laravel-AWS.png" alt="Laravel x AWS" />
+![image](https://github.com/TianMeds/Deploying-Dockerized-Laravel/assets/99672958/a32aeb00-3e55-496a-8cd2-8ea11f8e9ab0)![image](https://github.com/TianMeds/Deploying-Dockerized-Laravel/assets/99672958/99b61fd2-f079-43d3-b3cf-b22fdfd0dd8e)<img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/Laravel-AWS.png" alt="Laravel x AWS" />
 
 # Step by Step Deploying Dockerized Laravel in AWS
 
@@ -57,5 +57,24 @@
     <i>Note: this key pair will be used in your local system later so make sure to put that in the Local Linux system of your file</i>
     <li>Make sure to maintain it all default as is </li>
   </ul>
+  <li>Press Launch Instance below now and wait the status to be Available and 2/2 status checked in the Instance Dashboard</li>
+  <li>Press the Instance you created and press Connect</li>
+  <li>You will be redirect to a new page and press the SSH Client there and copy the SSH with your keypair its stated below there</li>
+  <br/>
+  <img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/SSH-CLIENT.png"/>
+
+  <li>You can now go to your linux for mine i use Debian so i'll open Debian in my system</li>
+  <li>Make sure to install these before cloning your Repo</li>
+  <ul>
+    <li>Git</li>
+    <li>Docker</li>
+    <li>Docker-compose</li>
+    <li>PHP</li>
+  </ul>
+  <li>Now clone your Repo and the file structure be like this</li>
+  <br/>
+  <img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/Repo%20Structure.png"/>
+  <i>Note: This is the file structure looks like:  One Parent Folder -> One Folder for the whole project or the Laravel</i>
+  <li>Now lets clone also laradock</li>
 </ol>
 
