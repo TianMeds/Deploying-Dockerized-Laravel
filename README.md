@@ -2,8 +2,18 @@
 
 # Step by Step Deploying Dockerized Laravel in AWS
 
-## AWS Services to be used
+## AWS Services
 <ul>
   <li>AWS EC2 Instance</li>
   <li>AWS RDS</li>
 </ul>
+
+## AWS RDS
+
+<ol>
+  <li>
+    Search Amazon RDS in AWS Console then press the service.
+  </li>
+</ol>
+
+
