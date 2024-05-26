@@ -72,18 +72,60 @@
     <li>PHP</li>
   </ul>
   <li>
-
-```
-cd /var/www
-```
+    <br/>
+    
+    ```
+    cd /var/www
+    ```
     
   </li>
+
+
   <li>Now clone your Repo and the file structure be like this</li>
   <br/>
   <img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/Repo%20Structure.png"/>
+
+  ```
+    git clone https://github.com/TianMeds/GJJSP.git
+```
+
   <i>Note: This is the file structure looks like:  One Parent Folder -> One Folder for the whole project or the Laravel</i>
   <li>Now lets clone also laradock</li>
 
+  ```
+  git clone https://github.com/Laradock/laradock.git
+  ```
+
+  <li>First, lets move all the way to the root folder of the VM</li>
   
+    ```
+    sudo rm -rf gjjsp-frontend
+    ls
+    sudo mv gjjsp-backend ../
+    ls
+    cd ..
+    ls
+    sudo rm -rf GJJSP-SIS
+    ls 
+    sudo cp gjjsp-backend gjjsp-backend2
+    sudo cp gjjsp-backend gjjsp
+    sudo cp -r gjjsp-backend gjjsp 
+    sudo rm -rf gjjsp-backend
+    cd gjjsp
+    sudo mv gjjsp-backend ../
+    cd ..
+    sudo rm -rf gjjsp
+    cd gjjsp-backend
+    ```
+
+<li>After now change the .env of laravel file and laradock file</li>    
+
+```
+sudo cp .env.example .env
+```
+
+<li>Then configure the database connection and other things in your both .env</li>
+<li>Then run the docker in the laradock folder</li>
+
 </ol>
 
