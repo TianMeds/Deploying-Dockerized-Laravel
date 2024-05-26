@@ -14,6 +14,9 @@
   <li>
     Search Amazon RDS in AWS Console then press the service.
   </li>
+  <ul>
+    <li>Press Create Database</li>
+  </ul>
 </ol>
 
 
