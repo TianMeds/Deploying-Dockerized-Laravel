@@ -43,4 +43,19 @@
   <li>Test the IP Address using Postman or You can now insert data in that database</li>
 </ol>
 
+## AWS EC2 Instance
+
+<ol>
+  <li>
+    Search EC2 in AWS and press the Launch Instance
+  </li>
+  <ul>
+    <li>Name and Tags: Backend-Server</li>
+    <li>Application and OS Images (Amazon Machine Image): <b>Debian</b> and the rest make it default</li>
+    <li>Instance type: <b>t.2.micro</b></li>
+    <li>Key pair (login) <b>Create a new key pair and this will be downloaded to your system</b></li>
+    <i>Note: this key pair will be used in your local system later so make sure to put that in the Local Linux system of your file</i>
+    <li>Make sure to maintain it all default as is </li>
+  </ul>
+</ol>
 
