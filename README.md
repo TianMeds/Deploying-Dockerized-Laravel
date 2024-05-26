@@ -32,6 +32,7 @@
   <li><b>Create Database</b></li>
   <li>Open your MySQL Workbench (If you use other Database Software)</li>
   <li>Connect your Endpoint generated in AWS RDS and put to MySQL Workbench</li>
+  <img src="![image](https://github.com/TianMeds/Deploying-Dockerized-Laravel/assets/99672958/0c308672-73cc-4fd9-8053-f984b784f4bb)"/>
 </ol>
 
 
