@@ -1,4 +1,4 @@
-![image](https://github.com/TianMeds/Deploying-Dockerized-Laravel/assets/99672958/a32aeb00-3e55-496a-8cd2-8ea11f8e9ab0)![image](https://github.com/TianMeds/Deploying-Dockerized-Laravel/assets/99672958/99b61fd2-f079-43d3-b3cf-b22fdfd0dd8e)<img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/Laravel-AWS.png" alt="Laravel x AWS" />
+
 
 # Step by Step Deploying Dockerized Laravel in AWS
 
@@ -71,10 +71,17 @@
     <li>Docker-compose</li>
     <li>PHP</li>
   </ul>
+  <li>
+    ```
+    cd /var/www
+    ```
+  </li>
   <li>Now clone your Repo and the file structure be like this</li>
   <br/>
   <img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/Repo%20Structure.png"/>
   <i>Note: This is the file structure looks like:  One Parent Folder -> One Folder for the whole project or the Laravel</i>
   <li>Now lets clone also laradock</li>
+
+  
 </ol>
 
