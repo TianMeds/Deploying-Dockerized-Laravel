@@ -30,6 +30,8 @@
     <li>Connectivity: Maintain all default except for <b>Public Access - Yes</b></li>
   </ul>
   <li><b>Create Database</b></li>
+  <li>Open your MySQL Workbench (If you use other Database Software)</li>
+  <li>Connect your Endpoint generated in AWS RDS and put to MySQL Workbench</li>
 </ol>
 
 
