@@ -27,9 +27,9 @@
     <li>Cluster storage configuration - new: <b>Aurora Standard</b></li>
     <li>Instance configuration: Depends on the CPU and RAM you need to your project</li>
     <li>Availability & durability: <b>Create an Aurora Replica </b></li>
-    <li>Connectivity: Maintain all default except for <b>Public Access</b></li>
-    <li><b>Create Database</b></li>
+    <li>Connectivity: Maintain all default except for <b>Public Access - Yes</b></li>
   </ul>
+  <li><b>Create Database</b></li>
 </ol>
 
 
