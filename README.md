@@ -16,6 +16,7 @@
   </li>
   <ul>
     <li>Press Create Database</li>
+    <li>Choose a database creation method: <b>Standard Create</b></li>
   </ul>
 </ol>
 
