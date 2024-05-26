@@ -72,7 +72,9 @@
     <li>PHP</li>
   </ul>
   <li>
-cd /var/www
+```bash
+   cd /var/www
+    ```
   </li>
   <li>Now clone your Repo and the file structure be like this</li>
   <br/>
