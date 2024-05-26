@@ -32,7 +32,14 @@
   <li><b>Create Database</b></li>
   <li>Open your MySQL Workbench (If you use other Database Software)</li>
   <li>Connect your Endpoint generated in AWS RDS and put to MySQL Workbench</li>
-  <img src="![image](https://github.com/TianMeds/Deploying-Dockerized-Laravel/assets/99672958/0c308672-73cc-4fd9-8053-f984b784f4bb)"/>
+  <img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-05-26_200106290.png"/>
+  <ul>
+    <li>Connection Name: DB Name that you want</li>
+    <li>Connection Method: Standard (TCP/IP)</li>
+    <li>HostName: IP Address in the AWS RDS if not working get the Endpoint in RDS </li>
+    <li>Username & Password : What you input in the RDS before creating the database</li>
+  </ul>
+  <li>Test Connection now and should be able to have a connection with RDS and MySQL Workbench</li>
 </ol>
 
 
