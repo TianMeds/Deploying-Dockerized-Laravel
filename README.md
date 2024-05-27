@@ -182,3 +182,10 @@ sudo chmod -R ugo+rw storage
 
 </ol>
 
+<i>Need help in this documentation?
+	<ul>
+		<li>Email: tianmeds.business@gmail.com</li>
+		<li>Portfolio: https://tianmeds-portfolio.vercel.app</li>
+	</ul>
+ <h3>Documented by Christian Medallada 💻</h3>
+</i>
