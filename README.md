@@ -73,11 +73,9 @@
   </ul>
   <li>
     <br/>
-    
-    ```
+
     cd /var/www
-    ```
-    
+
   </li>
 
 
@@ -98,7 +96,7 @@
 
   <li>First, lets move all the way to the root folder of the VM</li>
   
-    ```
+ 
     sudo rm -rf gjjsp-frontend
     ls
     sudo mv gjjsp-backend ../
@@ -116,8 +114,11 @@
     cd ..
     sudo rm -rf gjjsp
     cd gjjsp-backend
-    ```
 
+
+<i>Note: Please make sure that your file is in the root folder of the VM it should look like this</i>
+<br/>
+<img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/FileStructureinVM.png"/>
 <li>After now change the .env of laravel file and laradock file</li>    
 
 ```
@@ -126,6 +127,54 @@ sudo cp .env.example .env
 
 <li>Then configure the database connection and other things in your both .env</li>
 <li>Then run the docker in the laradock folder</li>
+  
+  ```
+  docker-compose up -d nginx
+  ```
+<li>Configure your NGINX in the laradock folder</li>
+
+```
+1. Open /nginx/sites/
+2. Duplicate laravel.conf.example
+3. Rename the duplicate to `your-project-name`.conf
+4. Change these Lines 18-19
+		server_name `Your IP-Address`; // add that to your machines /etc/hosts
+    root /var/www/`your-project-name`/public;
+```
+
+<li>Now redirect or cd your-project-folder </li>
+
+```
+cd your-project-folder
+composer install
+```
+
+
+<li>Now lets hop on the Issues so if you check now your folder its either one of these two what will you experience</li>
+<ul>
+  <li>404 not found:: Can’t access the static laravel front-end </li>
+  <p>Make sure your in the laradock folder to run this</p>
+  <br/>
+  <img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-05-27_205905308.png"/>
+
+  ```
+    docker-compose exec workspace chmod -R 755
+  ```
+<li>The stream or file "/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied</li>
+<p>Make sure now that your in the project folder</p>
+<br/>
+<img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-05-27_210856810.png"/>
+
+```
+sudo chmod -R ugo+rw storage
+```
+
+
+</ul>
+
+<li>Now to make sure now that it is working you want to search for the IP you have in your browser and should output like this</li>
+
+<img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-05-27_211235181.png"/>
 
 </ol>
 
