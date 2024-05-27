@@ -157,6 +157,8 @@ composer install
   <br/>
   <img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-05-27_205905308.png"/>
 
+<p><b>Solution: </b></p>
+
   ```
     docker-compose exec workspace chmod -R 755
   ```
@@ -164,6 +166,8 @@ composer install
 <p>Make sure now that your in the project folder</p>
 <br/>
 <img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/image_2024-05-27_210856810.png"/>
+
+<p><b>Solution: </b></p>
 
 ```
 sudo chmod -R ugo+rw storage
