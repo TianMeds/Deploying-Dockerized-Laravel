@@ -106,12 +106,14 @@
     sudo rm -rf GJJSP-SIS
     ls 
     sudo cp -r gjjsp-backend gjjsp-backend2
-    sudo cp gjjsp-backend gjjsp
     sudo cp -r gjjsp-backend gjjsp 
+    ls
     sudo rm -rf gjjsp-backend
     cd gjjsp
+    sudo rm -rf laradock
     sudo mv gjjsp-backend ../
     cd ..
+    ls
     sudo rm -rf gjjsp
     cd gjjsp-backend
 
