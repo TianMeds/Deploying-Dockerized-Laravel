@@ -84,7 +84,7 @@
   <img src="https://raw.githubusercontent.com/TianMeds/image--stocks-for-coding/main/Repo%20Structure.png"/>
 
   ```
-    git clone https://github.com/TianMeds/GJJSP.git
+    git clone https://github.com/TianMeds/GJJSP-SIS.git
 ```
 
   <i>Note: This is the file structure looks like:  One Parent Folder -> One Folder for the whole project or the Laravel</i>
@@ -105,7 +105,7 @@
     ls
     sudo rm -rf GJJSP-SIS
     ls 
-    sudo cp gjjsp-backend gjjsp-backend2
+    sudo cp -r gjjsp-backend gjjsp-backend2
     sudo cp gjjsp-backend gjjsp
     sudo cp -r gjjsp-backend gjjsp 
     sudo rm -rf gjjsp-backend
